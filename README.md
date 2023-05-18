@@ -30,9 +30,17 @@ Todos los caracteres están ocultos en los ejercicios que se presentan a continu
 
 ## Preparativos
 
-* clona el repositorio o descarga el código como un archivo ZIP
-* encuentra la carpeta `exercises/`
-* abre una terminal de `bash`
+* abre un emulador de terminal de `bash` 
+* clona el respositorio con 
+``` {.sourceCode .bash}
+git clone https://github.com/aleoncavallo/tutorial_bash.git
+```
+puedes copiar el texto haciendo click en el icono que aparece a la derecha del comando al acercar el puntero
+puedes pegar lo copiado usando `[Ctrl]` + `[Shift]` + `[v]` (`[Ctrl]` +  `[v]` no va a funcionar )
+* ingresa a la carpeta `exercises/`
+``` {.sourceCode .bash}
+cd tutorial_bash/excercises
+```
 
 ![](preparations.png)
 
@@ -43,7 +51,7 @@ Todos los caracteres están ocultos en los ejercicios que se presentan a continu
 
 ### 1.1. Navegación de directorios
 
-El **primer carácter** está oculto en un archivo en algún lugar del árbol de directorios del directorio *exercise1*. Usa los comandos
+El **primer caracter** está oculto en un archivo en algún lugar del árbol de directorios del directorio *exercise1*. Usa los comandos
 
 ``` {.sourceCode .bash}
 cd <nombre_directorio>
@@ -78,14 +86,14 @@ el comando
 ls -a
 ```
 
-El **segundo carácter** está en el mismo directorio que el primero, pero
+El **segundo caracter** está en el mismo directorio que el primero, pero
 en un archivo oculto.
 
 ### 1.3. Ejecutar un programa
 
 Usa `cd ..` para volver al directorio `exercise_1/directoryB/`. Cuando
 muestres su contenido, deberías ver un **archivo de script de shell**
-llamado `program.sh`. Para encontrar el **tercer carácter**, necesitas ejecutar
+llamado `program.sh`. Para encontrar el **tercer caracter**, necesitas ejecutar
 el programa. En bash, esto se hace escribiendo source y el nombre del
 programa:
 
@@ -96,7 +104,7 @@ source program.sh
 ### 1.4. Descubrir el tamaño de un archivo
 
 Ve a la carpeta `exercise_1/directoryC/`. Para encontrar el **cuarto
-carácter**, necesitas averiguar cuánto mide el archivo de texto en el directorio.
+caracter**, necesitas averiguar cuánto mide el archivo de texto en el directorio.
 Esto se hace con el comando
 
 ``` {.sourceCode .bash}
@@ -107,7 +115,7 @@ En la tabla que produce el comando, encontrarás el tamaño del archivo en bytes
 el propietario del archivo, los permisos de lectura y modificación, y la fecha/hora
 de la última modificación.
 
-Para obtener el cuarto carácter, busca el tamaño del archivo en la [Tabla de
+Para obtener el cuarto caracter, busca el tamaño del archivo en la [Tabla de
 caracteres ASCII imprimibles](https://en.wikipedia.org/wiki/ASCII#Printable_characters):
 
 ![](ASCII-Table-wide.svg)
