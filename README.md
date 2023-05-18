@@ -484,13 +484,15 @@ kill -s 9 <pid>
 ### Licencia
 
 **© 2010 Dr. Kristian Rother**
+**© 2023 Andrea Leon Cavallo** Adaptación al español para la materia Entornos de Programación de la Tecnicatura Universitaria en Inteligencia Artificial
 
-Este tutorial está publicado bajo la licencia Creative Commons Attribution-ShareAlike 4.0.
+Este tutorial está publicado bajo la licencia [Creative Commons Attribution-ShareAlike 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
 
 Puedes encontrar todas las fuentes completas en
-[<https://github.com/krother/bash_tutorial>](https://github.com/krother/bash_tutorial).
+en español: [<https://github.com/aleoncavallo/tutorial_bash/>](https://github.com/aleoncavallo/tutorial_bash/).
+original en ingles: [<https://github.com/krother/bash_tutorial>](https://github.com/krother/bash_tutorial).
 
-### Agradecimientos
+### Agradecimientos (de Kristian Rother)
 
 Agradezco a Janusz M. Bujnicki, Allegra Via, Pedro Fernandes y Joachim Jacob por su ayuda en la prueba y revisión del material. También quiero agradecer al Servicio Alemán de Intercambio Académico (DAAD) por su apoyo financiero.
 
