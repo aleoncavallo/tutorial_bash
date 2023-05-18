@@ -7,7 +7,8 @@ Este tutorial te familiariza con **bash**, la línea de comandos de Linux. Apren
 
 * navegar por directorios
 * manipular archivos
-* ejecutar programas
+* ejecutar programas / scripts
+* descomprimir / comprimir archivos
 
 Si no tienes experiencia previa con sistemas tipo Unix o conoces algunos comandos pero te gustaría aprender más, este tutorial es para ti.
 
