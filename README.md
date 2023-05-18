@@ -136,6 +136,8 @@ su contenido, usa el comando
 less <nombre_archivo>
 ```
 
+Para salir del programa less presiona la tecla 'q'.
+
 ### 2.2. Editar archivos de texto
 
 Para obtener el **sexto carácter**, necesitarás crear un archivo de texto en
@@ -143,7 +145,7 @@ el directorio `exercise_2`. En Ubuntu, puedes hacer esto usando el editor
 `nano`. Puedes iniciarlo escribiendo el nombre del programa o
 
 ``` {.sourceCode .bash}
-nano <nombre_archivo>
+nano <nombre_de_archivo>
 ```
 
 **Para salir de nano, presiona Ctrl-X**
@@ -193,7 +195,7 @@ Después, escribe `ls -l solution/*` para ver la solución.
 
 ### 3.2. Eliminar archivos
 
-En el directorio `data`, todos los archivos que contienen una `Y` deben ser eliminados. Para hacerlo,
+En el directorio `data`, todos los archivos que contienen una `Y` en el nombre deben ser eliminados. Para hacerlo,
 usa el comando:
 
 ``` {.sourceCode .bash}
@@ -242,7 +244,7 @@ Por favor, ve al directorio `exercise_4`.
 Existen dos versiones diferentes de una cita: `ai.txt` y `artificial_intelligence.txt`. Para saber cómo difieren entre sí, Unix proporciona el comando:
 
 ``` {.sourceCode .bash}
-diff <nombre de archivo1> <nombre de archivo2>
+diff <nombre_de_archivo1> <nombre_de_archivo2>
 ```
 
 Por supuesto, puedes ver el texto primero usando `less` o `nano`. El **11º carácter** de la solución es el único carácter en el que los dos archivos difieren.
@@ -366,7 +368,7 @@ Para ver los **caracteres 16+17** de la solución, haz que el programa `permissi
 
 <div class="admonition hint">
 
-Puedes otorgar permisos para todo un árbol de directorios utilizando
+Puedes otorgar permisos para todo un árbol de directorios utilizando la opcion -R de recursive:
 
 ``` {.sourceCode .bash}
 chmod -R a+x <directorio>
@@ -390,7 +392,7 @@ Para obtener el **18º carácter**, verifica la versión del programa `df`. Aver
 df --help
 ```
 
-La solución es el último carácter del primer nombre del primer autor.
+La solución es el último carácter del nombre del primer autor.
 
 ### 6.3. Establecer una variable de entorno
 
@@ -412,7 +414,7 @@ Para obtener el **19º carácter**, debes utilizar `export` para establecer la v
 echo $GIVEME
 ```
 
-Descubre la **posición de los caracteres en el alfabeto** con:
+Descubre la **posición de los caracteres en el alfabeto** del **carácter 19** con:
 
 ``` {.sourceCode .bash}
 echo $GIVEME | wc -c
@@ -422,16 +424,16 @@ echo $GIVEME | wc -c
 
 Por defecto, los cambios en las variables de entorno solo afectan a la terminal actual.
 
-Si deseas establecer variables de entorno para cada ventana de la consola, escribe el comando de exportación en el archivo `.bashrc` en tu directorio de inicio (es un archivo oculto).
+Si deseas establecer variables de entorno para cada ventana de la consola, escribe el comando que las exporta en el archivo `.bashrc` en tu directorio de inicio (es un archivo oculto).
 
 </div>
 
 ### 6.4. Comprobar si tienes conexión a Internet
 
-La forma más sencilla de verificar desde la línea de comandos de Unix si la conexión a Internet funciona es enviar una solicitud a un servidor conocido (por ejemplo, www.spiced-academy.com) utilizando el comando
+La forma más sencilla de verificar desde la línea de comandos de Unix si la conexión a Internet funciona es enviar una solicitud de eco a un servidor conocido (por ejemplo, www.spiced-academy.com) utilizando el comando
 
 ``` {.sourceCode .bash}
-ping <dirección web>
+ping <dirección_web>
 ```
 
 El comando informa cuánto tiempo tarda un mensaje de ida y vuelta al servidor dado. Para interrumpir los mensajes, presiona Ctrl+C. Puedes utilizar el programa
@@ -440,7 +442,7 @@ El comando informa cuánto tiempo tarda un mensaje de ida y vuelta al servidor d
 ./check_ping
 ```
 
-El **20º carácter** es la opción `ping` que establece el número máximo de solicitudes enviadas. Consulta la documentación con:
+El **20º carácter** es la letra de la opción del comando `ping` que establece el número de solicitudes de eco enviadas. Para verlo, consulta la documentación con:
 
 ``` {.sourceCode .bash}
 man ping
@@ -468,7 +470,7 @@ kill -s 9 <pid>
 
 </div>
 
-Encuentra el número de identificación del proceso (PID) en la primera columna de la salida de *top*. Por supuesto, solo puedes interrumpir tus propios programas, no los que pertenecen a *root*, el administrador del sistema.
+Encuentra el número de identificación del proceso (PID) en la primera columna de la salida de *top*. Por supuesto, solo puedes interrumpir tus propios programas, no los que pertenecen a *root*, el usuario de administración del sistema.
 
 ``` {.sourceCode .bash}
 kill -s 9 <pid>
