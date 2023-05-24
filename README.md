@@ -39,7 +39,7 @@ puedes copiar el texto haciendo click en el icono que aparece a la derecha del c
 puedes pegar lo copiado usando `[Ctrl]` + `[Shift]` + `[v]` (`[Ctrl]` +  `[v]` no va a funcionar )
 * ingresa a la carpeta `exercises/`
 ``` {.sourceCode .bash}
-cd tutorial_bash/excercises
+cd tutorial_bash/exercises
 ```
 
 ![](preparations.png)
