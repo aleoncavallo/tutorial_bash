@@ -37,7 +37,9 @@ git clone https://github.com/aleoncavallo/tutorial_bash.git
 ```
 puedes copiar el texto haciendo click en el icono que aparece a la derecha del comando al acercar el puntero
 puedes pegar lo copiado usando `[Ctrl]` + `[Shift]` + `[v]` (`[Ctrl]` +  `[v]` no va a funcionar )
-* ingresa a la carpeta `exercises/`
+Esto tendrá el efecto de copiar los archivos de este desafío en la carpeta tutorial_bash, donde estés en la jerarquía de archivos.
+
+* Luego ingresa a la carpeta `exercises/`
 ``` {.sourceCode .bash}
 cd tutorial_bash/exercises
 ```
