@@ -525,14 +525,11 @@ Puedes encontrar todas las fuentes completas en
 en español: [<https://github.com/aleoncavallo/tutorial_bash/>](https://github.com/aleoncavallo/tutorial_bash/).
 original en ingles: [<https://github.com/krother/bash_tutorial>](https://github.com/krother/bash_tutorial).
 
-### Agradecimientos (de Kristian Rother)
-
-Agradezco a Janusz M. Bujnicki, Allegra Via, Pedro Fernandes y Joachim Jacob por su ayuda en la prueba y revisión del material. También quiero agradecer al Servicio Alemán de Intercambio Académico (DAAD) por su apoyo financiero.
+### Agradecimientos 
+de Andrea León Cavallo: Agradezco a Damian Ariel por proporcionar el link al original en inglés, a Ana S. Murinigo por su ayuda en la prueba y revisión del material.
+de Kristian Rother: Agradezco a Janusz M. Bujnicki, Allegra Via, Pedro Fernandes y Joachim Jacob por su ayuda en la prueba y revisión del material. También quiero agradecer al Servicio Alemán de Intercambio Académico (DAAD) por su apoyo financiero.
 
 ### Contacto fuente en ingles
-
 Dr. Kristian Rother
-
 [krother@academis.eu](krother@academis.eu)
-
 [www.academis.eu](www.academis.eu)
