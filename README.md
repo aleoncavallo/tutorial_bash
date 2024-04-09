@@ -1,4 +1,4 @@
-El intérprete de línea de Comandos Bash
+El Intérprete de Línea de Comandos Bash
 ==========================
 
 ![*Tux, el pingüino de Linux*](tux.png)
