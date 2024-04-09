@@ -51,21 +51,30 @@ cd tutorial_bash/exercises
 
 ### 1.1. Navegación de directorios
 
-El **primer caracter** está oculto en un archivo en algún lugar del árbol de directorios del directorio *exercise1*. Usa los comandos
+El **primer caracter** está oculto en un archivo en algún lugar del árbol de directorios del directorio *exercise_1*. 
 
+Con el comando *P*rint *W*orking *D*irectory, se puede averiguar dònde estas en la jerarquía de archivos
 ``` {.sourceCode .bash}
-cd <nombre_directorio>
+pwd
 ```
 
-(no escribas los corchetes angulares, solo inserta el nombre del directorio) y
+Usando el comandos *ls* se puede listar el contenido de un directorio.
 
+Con *Li*s*t Directory podemos ver el contenido del directorio donde se encuentra la shell:
 ``` {.sourceCode .bash}
 ls
 ```
 
-para moverte de un directorio a otro. Examina los subdirectorios
-hasta que encuentres uno con el nombre `solution_1.1` y lista su contenido.
-Si te equivocaste de directorio, puedes retroceder un nivel escribiendo:
+Usa *C*hange *D*irectory para cambiar de directorio
+
+``` {.sourceCode .bash}
+cd <nombre_directorio>
+```
+(no escribas los corchetes angulares, en su lugar inserta el nombre del directorio de destino) 
+
+Deberas buscar en los directorios hasta que encuentres uno con el nombre `solution_1.1` y ahí listar su contenido.
+
+Si te equivocaste de directorio, puedes subir un nivel escribiendo:
 
 ``` {.sourceCode .bash}
 cd ..
@@ -74,20 +83,20 @@ cd ..
 o volver a tu carpeta de inicio:
 
 ``` {.sourceCode .bash}
-cd
+cd ~
 ```
+(que incluso se puede hacer obviando el ~)
+
 
 ### 1.2. Mostrar un archivo oculto
 
-Algunos archivos no son visibles de inmediato. Para verlos, necesitas
-el comando
+Algunos archivos no son visibles de inmediato. Para verlos, necesitaras usar el comando:
 
 ``` {.sourceCode .bash}
 ls -a
 ```
 
-El **segundo caracter** está en el mismo directorio que el primero, pero
-en un archivo oculto.
+El **segundo caracter** está en el mismo directorio que el primero, pero en un archivo oculto.
 
 ### 1.3. Ejecutar un programa
 
