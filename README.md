@@ -247,9 +247,11 @@ elimina un directorio y todo lo que hay en el mismo.
 
 <div class="admonition warning">
   
-En Unix, no es posible recuperar archivos borrados.
+En el shell de linux, no se guarda por defecto una papelera para recuperar archivos borrados.
 
-Esto hace que eliminar archivos utilizando el símbolo `*` sea **muy** peligroso, ya que podrías eliminar todo con un solo comando (por ejemplo, si escribes el directorio equivocado por accidente). Hacer copias de seguridad se vuelve aún más importante después de aprender este comando.
+Esto hace que eliminar archivos utilizando el símbolo `*` sea **muy** peligroso, ya que podrías eliminar todo con un solo comando 
+(por ejemplo, si escribes el directorio equivocado por accidente). 
+Hacer copias de seguridad se vuelve aún más importante después de aprender este comando.
   
 </div>
 
