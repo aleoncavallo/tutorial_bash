@@ -263,17 +263,21 @@ Por favor, ve al directorio `exercise_4`.
 
 ### 4.1. Comparar dos archivos
 
-Existen dos versiones diferentes de una cita: `ai.txt` y `artificial_intelligence.txt`. Para saber cómo difieren entre sí, Unix proporciona el comando:
+Existen dos versiones diferentes de una cita: `ai.txt` y `artificial_intelligence.txt`. 
+
+Para saber cómo difieren entre sí, En linux podemos usar el siguiente comando:
 
 ``` {.sourceCode .bash}
 diff <nombre_de_archivo1> <nombre_de_archivo2>
 ```
 
-Por supuesto, puedes ver el texto primero usando `less` o `nano`. El **11º carácter** de la solución es el único carácter en el que los dos archivos difieren.
+Por supuesto, puedes ver el texto primero usando `less` o `nano`. 
+
+El **11º carácter** de la solución es el único carácter en el que los dos archivos difieren.
 
 ### 4.2. Ordenar un archivo de texto
 
-Unix tiene un pequeño programa para ordenar archivos de texto alfabéticamente. Se llama de la siguiente manera:
+Linux tiene un pequeño programa para ordenar archivos de texto alfabéticamente. Se llama de la siguiente manera:
 
 ``` {.sourceCode .bash}
 less <nombre de archivo> | sort
@@ -329,7 +333,7 @@ Por favor, ve al directorio `exercise_5`.
 
 ### 5.1. Descomprimir archivos
 
-Descomprimir archivos comprimidos es una tarea básica e importante. En Unix, a menudo te encontrarás con archivos comprimidos de WinZip, archivos .tar y archivos comprimidos .gz. Para desempaquetar archivos de WinZip, utiliza el comando
+Descomprimir archivos comprimidos es una tarea básica e importante. En Linux, a menudo te encontrarás con archivos comprimidos de WinZip, archivos .tar y archivos comprimidos .gz. Para desempaquetar archivos de WinZip, utiliza el comando
 
 ``` {.sourceCode .bash}
 unzip <nombre de archivo>
@@ -373,7 +377,7 @@ Por favor, ve al directorio `exercise_6`.
 
 ### 6.1. Cambiar los permisos de acceso a un archivo
 
-Cada archivo en Unix tiene permisos separados para leer ('r'), escribir ('w') y ejecutar ('x'). Para mostrarlos, utiliza el comando:
+Cada archivo en Linux tiene permisos separados para leer ('r'), escribir ('w') y ejecutar ('x'). Para mostrarlos, utiliza el comando:
 
 ``` {.sourceCode .bash}
 ls -l
@@ -411,7 +415,7 @@ Para saber cuánto espacio en disco te queda, puedes utilizar el comando
 df
 ```
 
-`df` lista todas las particiones de disco duro, CD-ROM, pendrives y algunas particiones lógicas que Unix utiliza. Todos los números se dan en kilobytes (1000 bytes o una millonésima de GB).
+`df` lista todas las particiones de disco duro, CD-ROM, pendrives y algunas particiones lógicas que Linux utiliza. Todos los números se dan en kilobytes (1000 bytes o una millonésima de GB).
 
 Para obtener el **18º carácter**, verifica la versión del programa `df`. Averigua cómo hacerlo con:
 
@@ -457,7 +461,7 @@ Si deseas establecer variables de entorno para cada ventana de la consola, escri
 
 ### 6.4. Comprobar si tienes conexión a Internet
 
-La forma más sencilla de verificar desde la línea de comandos de Unix si la conexión a Internet funciona es enviar una solicitud de eco a un servidor conocido (por ejemplo, www.spiced-academy.com) utilizando el comando
+La forma más sencilla de verificar desde la línea de comandos de Linux si la conexión a Internet funciona es enviar una solicitud de eco a un servidor conocido (por ejemplo, campusv.fceia.unr.edu.ar) utilizando el comando
 
 ``` {.sourceCode .bash}
 ping <dirección_web>
