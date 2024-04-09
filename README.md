@@ -279,7 +279,9 @@ Unix tiene un pequeño programa para ordenar archivos de texto alfabéticamente.
 less <nombre de archivo> | sort
 ```
 
-El símbolo '|' se llama tubería y se utiliza frecuentemente para conectar programas de Unix entre sí. El **12º carácter** de la solución es el primer carácter de la última palabra en el archivo `elephant.txt` ordenado alfabéticamente.
+El símbolo '|' se llama tubería (o pipe en inglés) y se utiliza frecuentemente para conectar programas de Linux entre sí. 
+
+El **12º carácter** de la solución es el primer carácter de la última palabra en el archivo `elephant.txt` ordenado alfabéticamente.
 
 <div class="admonition hint">
 
@@ -287,7 +289,10 @@ Para guardar las líneas ordenadas en un nuevo archivo, puedes agregar un archiv
 
 ``` {.sourceCode .bash}
 less <nombre de archivo> | sort > resultado.txt
+
 ```
+
+El símbolo '>' tiene la función de redirigir la salida estándar (es decir, lo que si no se mostraría en pantalla) a un fichero, en este caso a 'resultado.txt'
 
 </div>
 
