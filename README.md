@@ -43,6 +43,8 @@ Esto tendrá el efecto de copiar los archivos de este desafío en la carpeta tut
 ``` {.sourceCode .bash}
 cd tutorial_bash/exercises
 ```
+Cuando escribas nombres de directorios, archivos o comandos, presiona [TAB] después de los primeros caracteres. 
+Bash intentará adivinar lo que estás escribiendo. Esto ahora te va a ahorrar escribir completa la linea tutorial_bash/exercises
 
 ![](preparations.png)
 
@@ -135,8 +137,8 @@ caracteres ASCII imprimibles](https://en.wikipedia.org/wiki/ASCII#Printable_char
 
 <div class="admonition hint">
 
-Cuando escribas nombres de directorios, archivos o comandos, presiona `[TAB]` después de los primeros
-caracteres. Bash intentará adivinar lo que estás escribiendo.
+Recuerda que no siempre escribimos todos los nombres de directorios, archivos o comandos, si presionas `[TAB]` después de los primeros caracteres, 
+la shell Bash intentará adivinar lo que estás escribiendo usando la informaciòn de qué programas hay instalados, donde estas en la jerarquía de directorios y otros datos.
 </div>
 
 ----
