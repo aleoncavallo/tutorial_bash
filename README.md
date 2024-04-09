@@ -53,7 +53,7 @@ cd tutorial_bash/exercises
 
 El **primer caracter** está oculto en un archivo en algún lugar del árbol de directorios del directorio *exercise_1*. 
 
-Con el comando *P*rint *W*orking *D*irectory, se puede averiguar dònde estas en la jerarquía de archivos
+Con el comando *P*rint *W*orking *D*irectory, se puede averiguar dónde estas en la jerarquía de archivos
 ``` {.sourceCode .bash}
 pwd
 ```
