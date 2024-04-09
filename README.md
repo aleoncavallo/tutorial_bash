@@ -129,7 +129,7 @@ de la última modificación.
 Para obtener el cuarto caracter, busca el tamaño del archivo en la [Tabla de
 caracteres ASCII imprimibles](https://en.wikipedia.org/wiki/ASCII#Printable_characters):
 
-![](ASCII-Table-wide.svg)
+![](asciitableconfondoblanco.png)
 
 *ASCII Table, Dominio Público*
 
