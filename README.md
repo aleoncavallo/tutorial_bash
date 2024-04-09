@@ -257,7 +257,7 @@ Hacer copias de seguridad se vuelve aún más importante después de aprender es
   
 </div>
 
-----## 4. Procesar datos de texto
+## 4. Procesar datos de texto
 
 Por favor, ve al directorio `exercise_4`.
 
