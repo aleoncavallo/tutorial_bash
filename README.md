@@ -3,7 +3,7 @@ La Línea de Comandos Bash
 
 ![*Tux, el pingüino de Linux*](tux.png)
 
-Este tutorial te familiariza con **bash**, la línea de comandos de Linux. Aprenderás a:
+Este tutorial te familiariza con **bash**, el intérprete de comandos más popular de Linux. Aprenderás a:
 
 * navegar por directorios
 * manipular archivos
