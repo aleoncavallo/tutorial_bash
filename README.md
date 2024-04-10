@@ -197,11 +197,11 @@ Por favor, ve al directorio `exercise_3`.
 
 ### 3.1. Crear un directorio y copiar un archivo en él
 
-Para encontrar los **caracteres siete y ocho**, debes crear un
-subdirectorio llamado *solution* en `exercise_3/` y copiar los archivos de
-las carpetas `part1/` y `part2/` dentro de él.
+Para encontrar los **caracteres siete y ocho**, primero deberas 
+crear un subdirectorio llamado *solution* en `exercise_3/`.
+Lugo copiar los archivos que hay dentro de las carpetas `part1/` y `part2/` dentro de *solution*.
 
-Para crear directorios, usa el comando:
+Para crear directorios, se usa el comando:
 
 ``` {.sourceCode .bash}
 mkdir <nombre_directorio>
