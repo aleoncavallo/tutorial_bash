@@ -213,7 +213,7 @@ Para copiar, puedes usar el comando
 cp <nombre_archivo_origen> <nombre_archivo_destino>
 ```
 
-Después, escribe `ls -l solution/*` para ver la solución.
+Después, escribe `ls -l solution/*` para ver la solución (pista: los simbolos + indican posición).
 
 ### 3.2. Eliminar archivos
 
