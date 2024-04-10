@@ -256,6 +256,8 @@ En el shell de linux, no se guarda por defecto una papelera para recuperar archi
 Esto hace que eliminar archivos utilizando el símbolo `*` sea **muy** peligroso, ya que podrías eliminar todo con un solo comando 
 (por ejemplo, si escribes el directorio equivocado por accidente). 
 Hacer copias de seguridad se vuelve aún más importante después de aprender este comando.
+
+(pista: Hay que obviar las X y _)
   
 </div>
 
