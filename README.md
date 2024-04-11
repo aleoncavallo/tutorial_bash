@@ -3,7 +3,7 @@ El Intérprete de Línea de Comandos Bash
 
 ![*Tux, el pingüino de Linux*](tux.png)
 
-Este tutorial te familiariza con **bash**, el intérprete de comandos más popular de Linux. Aprenderás a:
+Este desafío te familiariza con **bash**, el intérprete de comandos más popular de Linux. Aprenderás a:
 
 * navegar por directorios
 * manipular archivos
