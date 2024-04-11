@@ -16,7 +16,8 @@ Si no tienes experiencia previa con sistemas tipo Unix o conoces algunos comando
 
 *Este tutorial se preparó para Ubuntu Linux, pero también funciona en MacOS,
 Cygwin y Git bash, siempre que Python 3 esté instalado en
-tu sistema.*
+tu sistema.
+También se verificó su funcionamiento en la Shell de Bash en replit.com*
 
 ----
 
