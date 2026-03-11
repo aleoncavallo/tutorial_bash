@@ -23,7 +23,7 @@ También se verificó su funcionamiento en la Shell de Bash en replit.com*
 
 ## Objetivo
 
-En este tutorial, buscarás una palabra con 22 caracteres:
+En este tutorial, buscarás dos palabras con 11 caracteres:
 
 ![](solution.png)
 
