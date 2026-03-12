@@ -344,6 +344,12 @@ Descomprimir archivos comprimidos es una tarea básica e importante. En Linux, a
 unzip <nombre de archivo>
 ```
 
+En caso de no tener instalado el programa unzip, como ocurre en la virtual Entorno2026.ova se puede instalar con el comando
+
+``` {.sourceCode .bash}
+sudo pacman -Sy unzip
+```
+
 para archivos .tar y .tar.gz
 
 ``` {.sourceCode .bash}
