@@ -25,7 +25,7 @@ También se verificó su funcionamiento en la Shell de Bash en replit.com*
 
 En este tutorial, buscarás dos palabras con 11 caracteres:
 
-_ _ _ _ _ _ _ _ _ _ _     _ _ _ _ _ _ _ _ _ _ _
+       _ _ _ _ _ _ _ _ _ _ _               _ _ _ _ _ _ _ _ _ _ _
 
 Todos los caracteres están ocultos en los ejercicios que se presentan a continuación.
 
